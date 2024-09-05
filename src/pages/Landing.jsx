@@ -17,7 +17,7 @@ function Landing() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi facilis labore alias laboriosam nemo ipsa placeat, reiciendis, minima praesentium debitis maxime. Unde labore quo reprehenderit, laborum tempore cum facere eum.
       </p>
       <div className="d-grid">
-        <Link to={'/home'} className="btn btn-success">Lets Go</Link>
+        <Link to={'/log'} className="btn btn-success">Lets Go</Link>
       </div>
     </Col>
     <Col className='py-4 d-flex justify-content-center align-items-center' sm={12} md={6}>

@@ -16,3 +16,60 @@ MEDIA PLAYER:
 -npm i react-bootstrap bootstrap
 
 ->bootswatch.com -> download and import theme to app.jsx
+
+=>state lifting:
+-technique for passing daata from child to parent component
+
+=>REACT TOSTIFY
+-npm i react-toastify
+
+session storege and local storage
+-------------------------------------
+
+-both are mostly simmilar storages provided by browser
+-can store data in string format specifically in both 
+-local storsge data remains there if it is not cleared,but session storage data get removed automatically 
+    after a specific amount of time
+-data storage and accesss are similiar in imolementation in the case of both 
+-local storage and session storage are predefined js objects that used for handling both storages
+
+Local Storage:
+-localStorage.setItem("key",value)
+-localStorage.getItem("key")
+-localStorage.removeItem("key")
+-localStorage.clear()
+
+Session Storage:
+-sessionStorage.setItem("key",value)
+-sessionStorage.getItem("key")
+-sessionStorage.removeItem("key")
+-sessionStorage.clear()
+
+-props drilling:
+situation that occurs when a prop needed to share through multiple layers of components to reach a deeply nested 
+child component
+
+-coupling:level of independency b/w components high coupling means change in one component reacts on several number of
+other components .low coupling means change in one component affects only fewer number of components
+
+-React Redux:
+it have a global store and global state.React Redux is a powerful library that connects React components with Redux
+, a predictable state container for JavaScript applications.
+Redux is a state management library commonly used with React, although it can also be used with other JavaScript
+ frameworks. It helps manage the state of your application.
+ -its a state management library of react
+ -it uses a global state concept to manage data
+ -global state is simple as state that is accessible for every components in an app
+
+ dispatch:
+ action:
+ payload:
+ reducer:
+ state:
+
+ -Redux toolkit:
+ -configureStore()
+ -createReducer()
+ -createAction()
+ -createSlice()
+ -createAsyncThunk()
